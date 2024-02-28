@@ -44,10 +44,11 @@ For more information and a detailed explaination of the Mixtral/Mistral Model, v
 
 **Project Structure:**
 
+- config.json: The configuration file for the Model to create.
 - Mixtral.py: Mixtral model architecture.
+- tokenizer.model: The Tokenizer.
 - train_that_mf.py: Training and evaluation loops, optimizer setup.
-- lora.py: Low-Rank Adaptation implementation.
-- generate.py: Inference with the trained Mixtral model.
+- add_lora.py: Low-Rank Adaptation implementation for efficient Finetuning.
 - load_file.py: Loads the Model weights.
 - create_model.py: Creates the Mixtral Model, based in the configuration json file.
 - pretrain_data/: Data sets for Pre-training, validation, and testing.
