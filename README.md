@@ -14,7 +14,7 @@ Think of Mixtral as a team of specialized AI experts huddled together, each adep
 
 For more information and a detailed explaination of the Mixtral/Mistral Model, visit the Youtube video by ...
 
-(link)["https://youtu.be/UiX8K-xBUpE?si=bKlUWhjl0_lJEsjF"]
+(link)[https://youtu.be/UiX8K-xBUpE?si=bKlUWhjl0_lJEsjF]
 
 **Key Features:**
 
