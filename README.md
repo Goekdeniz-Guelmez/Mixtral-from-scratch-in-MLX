@@ -19,15 +19,16 @@ For more information and a detailed explaination of the Mixtral/Mistral Model, v
 **Key Features:**
 
 - **Sparse Mixture of Experts (Sparse MoE):** Utilizes a dynamic routing mechanism to selectively engage different subsets of parameters (experts) for different inputs, enhancing model capacity and efficiency.
-[MoE Paper explained](https://youtu.be/mwO6v4BlgZQ?si=3uVt8Atrk_JvVlAQ)
+
+[MoE Paper explained](https://arxiv.org/pdf/2401.04088.pdf)
 
 - **RMS Norm Regularization (Root Mean Square Layer Normalization):** A variant of layer normalization that stabilizes the training of deep networks by normalizing input features based on their RMS value. Ensures smooth collaboration between experts, enhancing overall model stability and accuracy.
 
-[RMS Paper explained](https://youtu.be/mwO6v4BlgZQ?si=3uVt8Atrk_JvVlAQ)
+[RMS Paper explained](https://arxiv.org/pdf/1910.07467.pdf)
 
 - **Rotary Positional Embedding (RoPE):** Optimizes efficiency by dynamically selecting relevant experts for each input, leading to lower memory requirements and faster inference.
 
-[RoPE Paper explained](https://youtu.be/mwO6v4BlgZQ?si=3uVt8Atrk_JvVlAQ)
+[RoPE Paper explained](https://arxiv.org/pdf/2104.09864.pdf)
 
 - **Low-Rank Adaptation (LoRA):** Adapts the models with minimal additional parameters, focusing on refining the weights of the attention and feedforward networks to improve performance on specific tasks.
 
