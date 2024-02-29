@@ -1,0 +1,11 @@
+mlx
+dataclasses
+pathlib
+typing
+simple_parsing
+glob
+numpy
+sentencepiece
+datasets
+matplotlib
+wandb

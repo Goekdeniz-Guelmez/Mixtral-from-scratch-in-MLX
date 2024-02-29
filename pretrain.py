@@ -3,7 +3,7 @@ from pathlib import Path
 from dataclasses import dataclass
 
 import mlx.optimizers as optim
-from train_that_mf import train
+from sft_trainer import train
 from create_model import create_model
 
 model_load_path = "/Users/gokdenizgulmez/Desktop/mixtral_mlx/v3"
@@ -21,8 +21,8 @@ class PreTrainArgs():
     test: bool = True # Test the model
 
     batch_size: int = 1 # Minibatch size, min 2.
-    val_batches: int = 1 # Number of validation batches, -1 uses the entire validation set, min 2.
-    test_batches: int = 1 # Number of test set batches, -1 uses the entire test set, min 2.
+    val_batches: int = 1 # Number of validation batches, -1 uses the entire validation set.
+    test_batches: int = 1 # Number of test set batches, -1 uses the entire test set.
 
     iters: int = 10 # Iterations to train for
 
